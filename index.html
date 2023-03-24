@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <title>도르트문트CF</title>
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <i class="fa-solid fa-futbol"></i>
+            <i class="fa-solid fa-magnifying-glass" title="돋보기"></i>
+            <i class="fa-solid fa-heart" title="하트"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-solid fa-shirt" title="팬샵"></i>
+            <i class="fa-solid fa-child-reaching" title="어린이"></i>
+            <i class="fa-solid fa-chart-line"title="선수데이터"></i>
+            <i class="fa-solid fa-trophy"></i>
+            <i class="fa-solid fa-handshake" title="회원"></i>
+            <i class="fa-solid fa-plane-departure" title="여행"></i>
+            <i class="fa-brands fa-facebook-f" title="페이스북"></i>
+            <i class="fa-brands fa-twitter" title="트위터"></i>
+            <i class="fa-brands fa-twitch"></i>
+            <i class="fa-brands fa-instagram" title="인스타"></i>
+            <i class="fa-solid fa-globe" title="글로벌"></i>
+            <i class="fa-solid fa-ticket"></i>
+        </div><!--header_top : END-->
+        <h1><a href="#"><img src="img/logo-bvb.svg" alt=""></a></h1>
+        <h2><a href="#"><img src="img/logo-1und1_s.svg" alt=""  id="logoc"></a></h2>
+        <div class="gnb rotate">
+            <div class="h_inner">
+                <ul class="tabMenu">
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">BVB-TV</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">TICKETS</a></li>
+                    <li><a href="#">SPIELE</a></li>
+                    <li><a href="#">MANNSCHAFTEN</a></li>
+                    <li><a href="#">FANS</a></li>
+                    <li><a href="#">DER BVB</a></li>
+                    <li><a href="#">PARTNER / HOSPITALITY</a></li>
+                </ul>
+            </div><!--h_inner : END-->
+
+        </div><!--gnb : END-->
+    </header>
+    <ul class="gnb_content tabBody">
+        <li>
+            <div>
+                내용1
+            </div>
+        </li>
+        <li>
+            <div>
+                내용2
+            </div>
+        </li>
+        <li>
+            <div>
+                내용3
+            </div>
+        </li>
+        <li>
+            <div>
+                내용4
+            </div>
+        </li>
+        <li>
+            <div>
+                내용5
+            </div>
+        </li>
+        <li>
+            <div>
+                내용6
+            </div>
+        </li>
+        <li>
+            <div>
+                내용7
+            </div>
+        </li>
+        <li>
+            <div>
+                내용8
+            </div>
+        </li>
+        <li>
+            <div>
+                내용9
+            </div>
+        </li>
+    </ul>
+    <script>
+        // const tabMenu = document.querySelectorAll('.tabMenu li');
+        // const tabBody = document.querySelectorAll('.tabBody li');
+        // const tabBodybu = document.querySelector('.tabBody');
+
+        // let num = 0;
+
+        // tabMenu.forEach(function(e,index){
+        //     e.addEventListener('click',function(){
+        //         tabBody[num].classList.remove('active');
+        //         tabMenu[num].classList.remove('active');
+        //         this.classList.add('active');
+        //         tabBodybu.classList.add('active')
+        //         // this.parentNode.add('active')   
+
+        //         num=index;
+        //         tabBody[num].classList.add('active');
+
+ 
+
+        //     });
+        // });
+
+        
+        // const tabMenu = document.querySelectorAll('.tabMenu li');
+        // const tabBody = document.querySelectorAll('.tabBody li');
+        // const tabBodybu = document.querySelector('.tabBody');
+
+        // let num = 0;
+
+        // tabMenu.forEach(function (e, index) {
+        // e.addEventListener('click', function () {
+        //         if (this.classList.contains('active')) {
+        //             this.classList.remove('active');
+        //             tabBodybu.classList.remove('active');
+        //             tabBody[num].classList.remove('active');
+        //             num = 0;
+        //             } else {
+        //             tabBody[num].classList.remove('active');
+        //             tabMenu[num].classList.remove('active');
+        //             this.classList.add('active');
+        //             tabBodybu.classList.add('active');
+        //             num = index;
+        //             tabBody[num].classList.add('active');
+
+        //             if (num === tabMenu.length) {
+        //                 num = 0;
+        //             }
+        //         }
+        //     });
+        // });
+
+
+        // const tabMenu = document.querySelectorAll('.tabMenu li');
+        // const tabBody = document.querySelectorAll('.tabBody li');
+        // const tabBodybu = document.querySelector('.tabBody');
+        // const gnb = document.querySelector('.gnb');
+
+        // let num = 0;
+
+        // tabMenu.forEach(function (e, index) {
+        // e.addEventListener('click', function () {
+        //     if (this.classList.contains('active')) {
+        //     this.classList.remove('active');
+        //     tabBodybu.classList.remove('active');
+        //     tabBody[num].classList.remove('active');
+        //     gnb.style.backgroundColor = '#ffd900';
+        //     num = 0;
+        //     } else {
+        //     tabBody[num].classList.remove('active');
+        //     tabMenu[num].classList.remove('active');
+        //     this.classList.add('active');
+        //     tabBodybu.classList.add('active');
+        //     gnb.style.backgroundColor = '#000';
+        //     num = index;
+        //     tabBody[num].classList.add('active');
+        //     }
+        // });
+        // });
+
+
+// const tabMenu = document.querySelectorAll('.tabMenu li');
+// const tabBody = document.querySelectorAll('.tabBody li');
+// const tabBodya = document.querySelectorAll('.tabBody li a');
+// const tabBodybu = document.querySelector('.tabBody');
+// const gnb = document.querySelector('.gnb');
+
+// let num = 0;
+
+// tabMenu.forEach(function (e, index) {
+//   e.addEventListener('click', function () {
+//     if (this.classList.contains('active')) {
+//       this.classList.remove('active');
+//       tabBodybu.classList.remove('active');
+//       tabBody[num].classList.remove('active');
+//       gnb.style.backgroundColor = '#ffd900';
+//       num = 0;
+//     } else {
+//       tabBody[num].classList.remove('active');
+//       tabMenu[num].classList.remove('active');
+//       this.classList.add('active');
+//       tabBodybu.classList.add('active');
+//       gnb.style.backgroundColor = '#fff';
+//       num = index;
+//       tabBody[num].classList.add('active');
+
+//       if (num === tabMenu.length) {
+//         num = 0;
+//       }
+//     }
+//   });
+// });
+
+
+// const tabMenu = document.querySelectorAll('.tabMenu li');
+// const tabBody = document.querySelectorAll('.tabBody li');
+// const tabMenua = document.querySelectorAll('.tabMenu li a');
+// const tabBodybu = document.querySelector('.tabBody');
+// const gnb = document.querySelector('.gnb');
+
+// let num = 0;
+// const defaultColor = '#000'; // 원래 폰트 색상
+// const clickedColor = '#ffd900'; // 클릭 시 폰트 색상
+
+// tabMenu.forEach(function (e, index) {
+//   e.addEventListener('click', function () {
+//     if (this.classList.contains('active')) {
+//       this.classList.remove('active');
+//       tabBodybu.classList.remove('active');
+//       tabBody[num].classList.remove('active');
+//       gnb.style.backgroundColor = clickedColor;
+//       tabMenua.forEach(function(a) {
+//         a.style.color = defaultColor;
+//       });
+//       num = 0;
+//     } else {
+//       tabBody[num].classList.remove('active');
+//       tabMenu[num].classList.remove('active');
+//       this.classList.add('active');
+//       tabBodybu.classList.add('active');
+//       gnb.style.backgroundColor = '#000';
+//       tabMenua.forEach(function(a) {
+//         a.style.color = clickedColor;
+//       });
+//       num = index;
+//       tabBody[num].classList.add('active');
+
+//       if (num === tabMenu.length) {
+//         num = 0;
+//       }
+//     }
+//   });
+// });
+
+
+const tabMenu = document.querySelectorAll('.tabMenu li');
+const tabBody = document.querySelectorAll('.tabBody li');
+const tabMenua = document.querySelectorAll('.tabMenu li a');
+const tabBodybu = document.querySelector('.tabBody');
+const gnb = document.querySelector('.gnb');
+
+let num = 0;
+const defaultColor = '#000';
+const clickedColor = '#ffd900';
+
+// 모든 탭 메뉴 아이템에 대해 opacity 값을 0.5로 설정하는 함수
+function removeOpacity() {
+  tabMenua.forEach(function(a) {
+    if (!a.classList.contains('clicked')) {
+      a.style.opacity = 0.5;
+    }
+  });
+}
+
+tabMenu.forEach(function (e, index) {
+  e.addEventListener('click', function () {
+    if (this.classList.contains('active')) {
+      this.classList.remove('active');
+      tabBodybu.classList.remove('active');
+      tabBody[num].classList.remove('active');
+      gnb.style.backgroundColor = clickedColor;
+      gnb.classList.remove('active');
+
+      tabMenua.forEach(function(a) {
+        a.style.color = defaultColor;
+        a.classList.remove('clicked');
+        a.style.opacity = 0.5;
+      });
+      num = 0;
+    } else {
+      tabBody[num].classList.remove('active');
+      tabMenu[num].classList.remove('active');
+      this.classList.add('active');
+      tabBodybu.classList.add('active');
+      gnb.style.backgroundColor = '#000';
+      gnb.classList.add('active');
+    //   logoc.src('img/logo-1und1_w.svg');
+
+      tabMenua.forEach(function(a) {
+        if (a === e.querySelector('a')) {
+          a.style.color = clickedColor;
+          a.classList.add('clicked');
+        } else {
+          a.style.color = defaultColor;
+          a.classList.remove('clicked');
+        }
+        a.style.opacity = 0.5;
+      });
+      removeOpacity();  // 나머지 탭 메뉴 아이템에 대해 opacity 값을 0.5로 설정
+      tabMenua[index].style.opacity = 1;  // 클릭한 탭 메뉴 아이템에 대해 opacity 값을 1로 설정
+      num = index;
+      tabBody[num].classList.add('active');
+
+      if (num === tabMenu.length) {
+        num = 0;
+      }
+    }
+  });
+
+  e.addEventListener('mouseover', function () {
+    if (!this.classList.contains('active')) {
+      removeOpacity();  // 모든 탭 메뉴 아이템에 대해 opacity 값을 0.5로 설정
+      tabMenua[index].style.opacity = 1;  // 호버한 탭 메뉴 아이템에 대해 opacity 값을 1로 설정
+    }
+  });
+
+  e.addEventListener('mouseout', function () {
+    if (!this.classList.contains('active')) {
+      tabMenua.forEach(function(a) {
+        a.style.opacity = 1;  // 모든 탭 메뉴 아이템에 대해 opacity 값을 0.5로 설정
+      });
+    }
+  });
+});
+
+tabMenu.forEach(function (e, index) {
+  // ...
+
+  e.addEventListener('click', function () {
+    if (this.classList.contains('active')) {
+      // ...
+      console.log('닫힐때 이미지변경')
+      document.querySelector('#logoc').src = 'img/logo-1und1_w.svg'; // 탭이 닫힐 때 이미지 변경
+    } else {
+      // ...
+      document.querySelector('#logoc').src = 'img/logo-1und1_s.svg'; // 탭이 열릴 때 이미지 변경
+    }
+  });
+
+  // ...
+});
+
+
+    </script>
+    <div class="wr">
+        <div class="visual skew">
+            <div class="img">
+                <dl class="visual_txt">
+                    <dt>도르트문트 CF</dt>
+                    <dd> 도르트문트는 12연승을 거두며<br /> 
+                        리그 역사를 만들었습니다.
+                    </dd>
+                    <dd>
+                        2023년04년17일
+                    </dd>
+                </dl><!--visual_txt : END-->
+            </div>
+            <p class="prev"></p>
+            <p class="next"></p>
+            <ul class="ul skew_n">
+                <li class="on"><img src="img/baner02.jpg" alt=""><span>도르트문트 CF</span></li>
+                <li><img src="img/wu02.webp" alt=""><span>도르트문트 CF</span></li>
+                <li><img src="img/wu02.webp" alt=""><span>도르트문트 CF</span></li>
+                <li><img src="img/wu02.webp" alt=""><span>도르트문트 CF</span></li>
+            </ul>
+        </div><!--visual : END-->
+
+    </div><!--wr : END-->
+
+    <main>
+        <section class="content1 skew">
+            <ul>
+                <li>
+                    <div class="game_con1">
+                        <h3>이전 경기 결과</h3>
+                        <div class="score">
+                            <div>
+                                <p><img src="img/oni.svg" alt=""></p>
+                            </div>
+                            <div>2 : 2</div>
+                            <div>
+                                <p><img src="img/logo-bvb.svg" alt=""></p>
+                            </div>
+                        </div><!--score : END -->
+                        <dl>
+                            <dt>샬케04 VS<strong> 도르트문트</strong></dt>
+                            <dd>분데스리가<br />2023년 03월 11일 18:30 경기</dd>
+                        </dl>
+                    </div><!--game_con : END-->
+                </li>
+                <li>
+                    <div class="game_con2">
+                        <h3>돌아오는 경기</h3>
+                        <div class="score">
+                            <div>
+                                <img src="img/logo-bvb.svg" alt="">
+                                <span>도르트문트</span>
+                            </div>
+                            <div><span> - : - </span></div>
+                            <div>
+                                <img src="img/koln.png" alt="">
+                                <span>1.FC KOLN</span>
+                            </div>
+                        </div><!--score : END-->
+                        <ul class="game_con2_list">
+                            <li>SIGNAL IDUNA </li>
+                            <li>2023.04.27 18:30</li>
+                            <li>BUNDESLIGA</li>
+                            <li><a href="#">TICKETS</a></li>
+                        </ul>
+                    </div><!--game_con : END-->
+                </li>
+                <li>
+                    <div class="game_con3">
+                        <h3>이후의 경기들</h3>
+                        <dl>
+                            <dt>바이에른 뮌헨 - 보루시아 도르트문트</dt>
+                            <dd>2023. 05. 24 / 18:30</dd>
+                        </dl>
+                        <dl>
+                            <dt>스포츠 라이프치히 - 보루시아 도르트문트</dt>
+                            <dd>2023. 06. 04 / 20:45</dd>
+                        </dl>
+                        <dl>
+                            <dt>유니온 베를린 - 보루시아 도르트문트</dt>
+                            <dd>2023. 08. 23 / 15:30</dd>
+                        </dl>
+                    </div><!--game_con : END-->
+                </li>
+            </ul>
+        </section><!--content1 : END-->
+        <section class="content2 skew">
+            <div class="inner">
+                <h2>분대스리가 뉴스</h2>
+                <ul class="new_ul1">
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span>2023. 03. 18</span>
+                                <img src="img/new01.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 | 하늘 방송</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <div class="img">
+                                        <span>2023. 04. 24</span>
+                                        <img src="img/new02.jpg" alt="">
+                                    </div>
+                                    <dl>
+                                        <dt>
+                                            Salih Özcan과 함께하는 홀리데이 매거진</dt>
+                                        <dd>
+                                            보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                            킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                            신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는
+                                        </dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="img">
+                                        <span>2023. 05. 07</span>
+                                        <img src="img/new03.jpg" alt="">
+                                    </div>
+                                    <dl>
+                                        <dt>시버트 휘파람 | 하늘 방송</dt>
+                                        <dd>
+                                            보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                            킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                            신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는
+                                        </dd>
+                                    </dl>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span>파트너스 광고</span>
+                                <img src="img/b_baner2.jpg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span>2023. 03. 18</span>
+                                <img src="img/new04.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 | 하늘 방송</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span>2023. 03. 18</span>
+                                <img src="img/new05.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 | 하늘 방송</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span>2023. 03. 18</span>
+                                <img src="img/new06.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 | 하늘 방송</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span>2023. 03. 18</span>
+                                <img src="img/new07.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>
+                                    U19는 이제 타이틀 해트트릭을 목표로 합니다.</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+                <div class="r_baner">
+                    <a href="#">
+                        <img src="img/r_baner.jpg" alt="">
+                        <span>파트너 광고</span>
+                    </a>
+                </div><!--r_baner : END-->
+                <div class="news_plus">
+                    <a href="#">
+                        뉴스 개요 더보기
+                    </a>
+                </div>
+            </div><!--inner : END-->
+        </section><!--content2 : END-->
+        <section class="content3 skew">
+            <div class="inner skew_n">
+                <h2>플레이어들</h2>
+                <ul>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img/h01.png" alt="">
+                                    <p class="p1"><span></span></p>
+                                    <p class="p2"></p>
+                                    <p class="p3"></p>
+                                    <p class="p4"></p>
+                                </div><!--img : END-->
+                                <dl>
+                                    <dt><span>1</span><span>주드벨링엄</span></dt>
+                                    <dd></dd>
+                                    <!-- 사진정보 : https://www.weltfussball.de/spieler_profil/mateu-morey/ -->
+                                    <!-- <dd>https://m.post.naver.com/viewer/postView.naver?volumeNo=33794944&memberNo=54701274</dd> -->
+                                </dl>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img/h02.png" alt="">
+                                    <p class="p1"><span></span></p>
+                                    <p class="p2"></p>
+                                    <p class="p3"></p>
+                                    <p class="p4"></p>
+                                </div><!--img : END-->
+                                <dl>
+                                    <dt><span>2</span><span>주드벨링엄</span></dt>
+                                    <dd></dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img/h03.png" alt="">
+                                    <p class="p1"><span></span></p>
+                                    <p class="p2"></p>
+                                    <p class="p3"></p>
+                                    <p class="p4"></p>
+                                </div><!--img : END-->
+                                <dl>
+                                    <dt><span>3</span><span>주드벨링엄</span></dt>
+                                    <dd></dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img/h04.png" alt="">
+                                    <p class="p1"><span></span></p>
+                                    <p class="p2"></p>
+                                    <p class="p3"></p>
+                                    <p class="p4"></p>
+                                </div><!--img : END-->
+                                <dl>
+                                    <dt><span>4</span><span>주드벨링엄</span></dt>
+                                    <dd></dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img/h05.png" alt="">
+                                    <p class="p1"><span></span></p>
+                                    <p class="p2"></p>
+                                    <p class="p3"></p>
+                                    <p class="p4"></p>
+                                </div><!--img : END-->
+                                <dl>
+                                    <dt><span>5</span><span>주드벨링엄</span></dt>
+                                    <dd></dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img/h06.png" alt="">
+                                    <p class="p1"><span></span></p>
+                                    <p class="p2"></p>
+                                    <p class="p3"></p>
+                                    <p class="p4"></p>
+                                </div><!--img : END-->
+                                <dl>
+                                    <dt><span>6</span><span>주드벨링엄</span></dt>
+                                    <dd></dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img/h07.png" alt="">
+                                    <p class="p1"><span></span></p>
+                                    <p class="p2"></p>
+                                    <p class="p3"></p>
+                                    <p class="p4"></p>
+                                </div><!--img : END-->
+                                <dl>
+                                    <dt><span>7</span><span>주드벨링엄</span></dt>
+                                    <dd></dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <div class="img">
+                                    <img src="img/h08.png" alt="">
+                                    <p class="p1"><span></span></p>
+                                    <p class="p2"></p>
+                                    <p class="p3"></p>
+                                    <p class="p4"></p>
+                                </div><!--img : END-->
+                                <dl>
+                                    <dt><span>8</span><span>주드벨링엄</span></dt>
+                                    <dd></dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div><!--inner : END-->
+        </section><!--content3 : END-->
+
+        <section class="content4 skew">
+            <div class="inner skew_n">
+                <img src="img/Shopzeile_Merchandising.png" alt="">
+                <dl>
+                    <dt>
+                        도르트문트는 '다르다!' 시작부터<br />
+                        22/23 새 시즌 유니폼 론칭!
+                    </dt>
+                    <dd>
+                        <a href="#">구단 팬샵</a>
+                    </dd>
+                </dl>
+            </div><!--inner : END-->
+        </section><!--content4 : END-->
+        <section  class="content5 skew">
+            <div class="inner ">
+                <h2 class="skew_n">프로모션</h2>
+                <ul>
+                    <li>
+                        <a href="#" class="skew_n">
+                            <img src="img/kg01.jpg" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="skew_n">
+                            <img src="img/kg02.jpg" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="skew_n">
+                            <img src="img/kg03.jpg" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="skew_n">
+                            <img src="img/kg04.jpg" alt="" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="skew_n">
+                            <img src="img/kg05.jpg" alt="" />
+                        </a>
+                    </li>
+                </ul>
+            </div><!--inner : END-->
+        </section><!--content5 : END-->
+
+
+        <section class="content4 content6 skew">
+            <div class="inner skew_n">
+                <img src="img/Stadiontour.png" alt="">
+                <dl>
+                    <dt>
+                        시그널 이두나 파크 <br />
+                        스타디움 투어 예약하기
+                    </dt>
+                    <dd>
+                        <a href="#">투어 예약</a>
+                    </dd>
+                </dl>
+            </div><!--inner : END-->
+        </section><!--content6 : END-->
+
+        <section class="content7 skew">
+            <ul>
+                <li >
+                    <a href="#" class="skew_n">
+                        <div class="bg_b">
+                            <img src="img/video01.jpg" alt="">
+                            <img class="icon" src="img/bvb_total_play.png" alt="">
+                            <p>
+                                <span>2023.03.29</span>
+                                BV-u23:<br />
+                                강등권 싸움 &<br />
+                                프로 진출과의 싸움
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="skew_n">
+                        <div class="bg_b">
+                            <img src="img/video02.jpg" alt="">
+                            <img class="icon" src="img/bvb_total_play.png" alt="">
+                            <p>
+                                <span>2023.03.29</span>
+                                BV-u23:<br />
+                                강등권 싸움 &<br />
+                                프로 진출과의 싸움
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="skew_n">
+                        <div class="bg_b">
+                            <img src="img/video03.jpg" alt="">
+                            <img class="icon" src="img/bvb_total_play.png" alt="">
+                            <p>
+                                <span>2023.03.29</span>
+                                BV-u23:<br />
+                                강등권 싸움 &<br />
+                                프로 진출과의 싸움
+                            </p>
+                        </div><!--bg_b : END-->
+                    </a>
+                </li>
+            </ul>
+        </section><!--content7 : END-->
+
+
+
+
+
+
+        <section class="content8 skew">
+            <div class="inner">
+                <h2>도르트문트 SNS</h2>
+                <ul class="new_ul1">
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
+                                <img src="img/sns01.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 | 하늘 방송</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
+                                <img src="img/sns02.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>
+                                    Salih Özcan과 함께하는 홀리데이 매거진</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
+                                <img src="img/sns03.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 | 하늘 방송</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
+                                <img src="img/new04.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 | 하늘 방송</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
+                                <img src="img/new05.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 | 하늘 방송</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
+                                <img src="img/new06.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 | 하늘 방송</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
+                                <img src="img/new07.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>
+                                    U19는 이제 타이틀 해트트릭을 목표로 합니다.</dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div><!--inner : END-->
+        </section><!--content2 : END-->
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
