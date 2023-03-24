@@ -15,6 +15,7 @@ header{position: relative;overflow: hidden;}
 .header_top ul:first-child li.on{}
 .header_top ul:first-child li.on a{opacity: 1;}
 .header_top ul:first-child li.on a i{color:#ffd900}
+.header_top ul:first-child li.on a i{color:#ffd900}
 .header_top ul:first-child li.on a::after{
     content: "";
     position: absolute;
