@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo-bvb.svg" type="image/x-icon"> 
     <link rel="stylesheet" href="css/basic.css">
+    <!-- <link rel="stylesheet" href="css/numberlist.css"> -->
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
+    <!-- <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script> -->
     <title>도르트문트CF</title>
 </head>
 <body>
@@ -103,260 +108,7 @@
             </div>
         </li>
     </ul>
-    <script>
-        // const tabMenu = document.querySelectorAll('.tabMenu li');
-        // const tabBody = document.querySelectorAll('.tabBody li');
-        // const tabBodybu = document.querySelector('.tabBody');
-
-        // let num = 0;
-
-        // tabMenu.forEach(function(e,index){
-        //     e.addEventListener('click',function(){
-        //         tabBody[num].classList.remove('active');
-        //         tabMenu[num].classList.remove('active');
-        //         this.classList.add('active');
-        //         tabBodybu.classList.add('active')
-        //         // this.parentNode.add('active')   
-
-        //         num=index;
-        //         tabBody[num].classList.add('active');
-
  
-
-        //     });
-        // });
-
-        
-        // const tabMenu = document.querySelectorAll('.tabMenu li');
-        // const tabBody = document.querySelectorAll('.tabBody li');
-        // const tabBodybu = document.querySelector('.tabBody');
-
-        // let num = 0;
-
-        // tabMenu.forEach(function (e, index) {
-        // e.addEventListener('click', function () {
-        //         if (this.classList.contains('active')) {
-        //             this.classList.remove('active');
-        //             tabBodybu.classList.remove('active');
-        //             tabBody[num].classList.remove('active');
-        //             num = 0;
-        //             } else {
-        //             tabBody[num].classList.remove('active');
-        //             tabMenu[num].classList.remove('active');
-        //             this.classList.add('active');
-        //             tabBodybu.classList.add('active');
-        //             num = index;
-        //             tabBody[num].classList.add('active');
-
-        //             if (num === tabMenu.length) {
-        //                 num = 0;
-        //             }
-        //         }
-        //     });
-        // });
-
-
-        // const tabMenu = document.querySelectorAll('.tabMenu li');
-        // const tabBody = document.querySelectorAll('.tabBody li');
-        // const tabBodybu = document.querySelector('.tabBody');
-        // const gnb = document.querySelector('.gnb');
-
-        // let num = 0;
-
-        // tabMenu.forEach(function (e, index) {
-        // e.addEventListener('click', function () {
-        //     if (this.classList.contains('active')) {
-        //     this.classList.remove('active');
-        //     tabBodybu.classList.remove('active');
-        //     tabBody[num].classList.remove('active');
-        //     gnb.style.backgroundColor = '#ffd900';
-        //     num = 0;
-        //     } else {
-        //     tabBody[num].classList.remove('active');
-        //     tabMenu[num].classList.remove('active');
-        //     this.classList.add('active');
-        //     tabBodybu.classList.add('active');
-        //     gnb.style.backgroundColor = '#000';
-        //     num = index;
-        //     tabBody[num].classList.add('active');
-        //     }
-        // });
-        // });
-
-
-// const tabMenu = document.querySelectorAll('.tabMenu li');
-// const tabBody = document.querySelectorAll('.tabBody li');
-// const tabBodya = document.querySelectorAll('.tabBody li a');
-// const tabBodybu = document.querySelector('.tabBody');
-// const gnb = document.querySelector('.gnb');
-
-// let num = 0;
-
-// tabMenu.forEach(function (e, index) {
-//   e.addEventListener('click', function () {
-//     if (this.classList.contains('active')) {
-//       this.classList.remove('active');
-//       tabBodybu.classList.remove('active');
-//       tabBody[num].classList.remove('active');
-//       gnb.style.backgroundColor = '#ffd900';
-//       num = 0;
-//     } else {
-//       tabBody[num].classList.remove('active');
-//       tabMenu[num].classList.remove('active');
-//       this.classList.add('active');
-//       tabBodybu.classList.add('active');
-//       gnb.style.backgroundColor = '#fff';
-//       num = index;
-//       tabBody[num].classList.add('active');
-
-//       if (num === tabMenu.length) {
-//         num = 0;
-//       }
-//     }
-//   });
-// });
-
-
-// const tabMenu = document.querySelectorAll('.tabMenu li');
-// const tabBody = document.querySelectorAll('.tabBody li');
-// const tabMenua = document.querySelectorAll('.tabMenu li a');
-// const tabBodybu = document.querySelector('.tabBody');
-// const gnb = document.querySelector('.gnb');
-
-// let num = 0;
-// const defaultColor = '#000'; // 원래 폰트 색상
-// const clickedColor = '#ffd900'; // 클릭 시 폰트 색상
-
-// tabMenu.forEach(function (e, index) {
-//   e.addEventListener('click', function () {
-//     if (this.classList.contains('active')) {
-//       this.classList.remove('active');
-//       tabBodybu.classList.remove('active');
-//       tabBody[num].classList.remove('active');
-//       gnb.style.backgroundColor = clickedColor;
-//       tabMenua.forEach(function(a) {
-//         a.style.color = defaultColor;
-//       });
-//       num = 0;
-//     } else {
-//       tabBody[num].classList.remove('active');
-//       tabMenu[num].classList.remove('active');
-//       this.classList.add('active');
-//       tabBodybu.classList.add('active');
-//       gnb.style.backgroundColor = '#000';
-//       tabMenua.forEach(function(a) {
-//         a.style.color = clickedColor;
-//       });
-//       num = index;
-//       tabBody[num].classList.add('active');
-
-//       if (num === tabMenu.length) {
-//         num = 0;
-//       }
-//     }
-//   });
-// });
-
-
-const tabMenu = document.querySelectorAll('.tabMenu li');
-const tabBody = document.querySelectorAll('.tabBody li');
-const tabMenua = document.querySelectorAll('.tabMenu li a');
-const tabBodybu = document.querySelector('.tabBody');
-const gnb = document.querySelector('.gnb');
-
-let num = 0;
-const defaultColor = '#000';
-const clickedColor = '#ffd900';
-
-// 모든 탭 메뉴 아이템에 대해 opacity 값을 0.5로 설정하는 함수
-function removeOpacity() {
-  tabMenua.forEach(function(a) {
-    if (!a.classList.contains('clicked')) {
-      a.style.opacity = 0.5;
-    }
-  });
-}
-
-tabMenu.forEach(function (e, index) {
-  e.addEventListener('click', function () {
-    if (this.classList.contains('active')) {
-      this.classList.remove('active');
-      tabBodybu.classList.remove('active');
-      tabBody[num].classList.remove('active');
-      gnb.style.backgroundColor = clickedColor;
-      gnb.classList.remove('active');
-
-      tabMenua.forEach(function(a) {
-        a.style.color = defaultColor;
-        a.classList.remove('clicked');
-        a.style.opacity = 0.5;
-      });
-      num = 0;
-    } else {
-      tabBody[num].classList.remove('active');
-      tabMenu[num].classList.remove('active');
-      this.classList.add('active');
-      tabBodybu.classList.add('active');
-      gnb.style.backgroundColor = '#000';
-      gnb.classList.add('active');
-    //   logoc.src('img/logo-1und1_w.svg');
-
-      tabMenua.forEach(function(a) {
-        if (a === e.querySelector('a')) {
-          a.style.color = clickedColor;
-          a.classList.add('clicked');
-        } else {
-          a.style.color = defaultColor;
-          a.classList.remove('clicked');
-        }
-        a.style.opacity = 0.5;
-      });
-      removeOpacity();  // 나머지 탭 메뉴 아이템에 대해 opacity 값을 0.5로 설정
-      tabMenua[index].style.opacity = 1;  // 클릭한 탭 메뉴 아이템에 대해 opacity 값을 1로 설정
-      num = index;
-      tabBody[num].classList.add('active');
-
-      if (num === tabMenu.length) {
-        num = 0;
-      }
-    }
-  });
-
-  e.addEventListener('mouseover', function () {
-    if (!this.classList.contains('active')) {
-      removeOpacity();  // 모든 탭 메뉴 아이템에 대해 opacity 값을 0.5로 설정
-      tabMenua[index].style.opacity = 1;  // 호버한 탭 메뉴 아이템에 대해 opacity 값을 1로 설정
-    }
-  });
-
-  e.addEventListener('mouseout', function () {
-    if (!this.classList.contains('active')) {
-      tabMenua.forEach(function(a) {
-        a.style.opacity = 1;  // 모든 탭 메뉴 아이템에 대해 opacity 값을 0.5로 설정
-      });
-    }
-  });
-});
-
-tabMenu.forEach(function (e, index) {
-  // ...
-
-  e.addEventListener('click', function () {
-    if (this.classList.contains('active')) {
-      // ...
-      console.log('닫힐때 이미지변경')
-      document.querySelector('#logoc').src = 'img/logo-1und1_w.svg'; // 탭이 닫힐 때 이미지 변경
-    } else {
-      // ...
-      document.querySelector('#logoc').src = 'img/logo-1und1_s.svg'; // 탭이 열릴 때 이미지 변경
-    }
-  });
-
-  // ...
-});
-
-
-    </script>
     <div class="wr">
         <div class="visual skew">
             <div class="img">
@@ -411,7 +163,7 @@ tabMenu.forEach(function (e, index) {
                                 <img src="img/logo-bvb.svg" alt="">
                                 <span>도르트문트</span>
                             </div>
-                            <div><span> - : - </span></div>
+                            <div><span><strong> - </strong>&nbsp;VS&nbsp;<strong> - </strong></span></div>
                             <div>
                                 <img src="img/koln.png" alt="">
                                 <span>1.FC KOLN</span>
@@ -429,7 +181,7 @@ tabMenu.forEach(function (e, index) {
                     <div class="game_con3">
                         <h3>이후의 경기들</h3>
                         <dl>
-                            <dt>바이에른 뮌헨 - 보루시아 도르트문트</dt>
+                            <dt>바이에른 바이에른 - 보루시아 도르트문트</dt>
                             <dd>2023. 05. 24 / 18:30</dd>
                         </dl>
                         <dl>
@@ -962,15 +714,381 @@ tabMenu.forEach(function (e, index) {
                             </dl>
                         </a>
                     </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 </dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="img">
+                                <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
+                                <img src="img/new08.jpg" alt="">
+                            </div>
+                            <dl>
+                                <dt>시버트 휘파람 </dt>
+                                <dd>
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                </dd>
+                            </dl>
+                        </a>
+                    </li>
                 </ul>
 
 
             </div><!--inner : END-->
         </section><!--content2 : END-->
+
+
+        <section class="content9 skew">
+            <div class="inner">
+
+                <h2>분대스리가 순위</h2>
+
+             
+
+
+
+
+                <div class="swiper-container ranking_list">
+                    <!-- <div class="swiper-scrollbar"></div> -->
+
+                    <div class="swiper-wrapper list_bu">
+                        <div class="swiper-slide on">
+                            <dl>
+                                <dt>
+                                    <strong>1</strong>
+                                    <img src="img/logo-bvb.svg" alt="">
+                                </dt>
+                                <dd>
+                                    도르트문트
+                                    <span>84점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>2</strong>
+                                    <img src="img/muin.png" alt="">
+                                </dt>
+                                <dd>
+                                    바이에른 뮌헨
+                                    <span>79점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>3</strong>
+                                    <img src="img/oni.svg" alt="">
+                                </dt>
+                                <dd>
+                                    우니온 베를린
+                                    <span>75점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>4</strong>
+                                    <img src="img/ranking4.png" alt="">
+                                </dt>
+                                <dd>
+                                    프라이부르크
+                                    <span>72점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>5</strong>
+                                    <img src="img/ranking5.png" alt="">
+                                </dt>
+                                <dd>
+                                    라이프치히
+                                    <span>71점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>6</strong>
+                                    <img src="img/ranking6.png" alt="">
+                                </dt>
+                                <dd>
+                                    프랑크푸르트
+                                    <span>68점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>7</strong>
+                                    <img src="img/ranking7.png" alt="">
+                                </dt>
+                                <dd>
+                                    볼프스부르크
+                                    <span>64점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>8</strong>
+                                    <img src="img/ranking8.png" alt="">
+                                </dt>
+                                <dd>
+                                    레버쿠젠
+                                    <span>63점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>9</strong>
+                                    <img src="img/ranking9.png" alt="">
+                                </dt>
+                                <dd>
+                                    마인츠
+                                    <span>61점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>10</strong>
+                                    <img src="img/ranking10.png" alt="">
+                                </dt>
+                                <dd>
+                                    샬케
+                                    <span>58점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>11</strong>
+                                    <img src="img/koln.png" alt="">
+                                </dt>
+                                <dd>
+                                    퀼른
+                                    <span>53점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                        <div class="swiper-slide ">
+                            <dl>
+                                <dt>
+                                    <strong>12</strong>
+                                    <img src="img/ranking12.png" alt="">
+                                </dt>
+                                <dd>
+                                    호펜하임
+                                    <span>49점</span>
+                                </dd>
+                            </dl>                            
+                        </div><!---슬라이더 컨텐--->
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+                <div class="nextBtn">
+                    <div class="swiper-button-prev"><</div>
+                    <div class="swiper-button-next">></div>
+                    <div class="Clas"><a href="rankinglist.html">순위 자세히</a></div>
+                </div><!--nextBtn : END-->
+                <style>
+
+                .swiper-container {
+                    width: 100%;
+                    height: 300px;
+                    margin: 50px auto;
+                }
+
+                </style>
+                <script src="js/swiper.min.js"></script>
+                <script>
+                    var swiper = new Swiper({
+                        el: '.swiper-container',
+                        slidesPerView : 8,
+                        initialSlide: 0,
+                        spaceBetween: 0,// 슬라이드간 간격/
+                        //slidesPerGroup:5,// 그룹으로 묶을 수, slidesPerView 와 같은 값을 지정하는게 좋음
+                        //slidesPerView: 2,
+                        centeredSlides: false,
+                        slideToClickedSlide: true,
+                        grabCursor: true,
+                        scrollbar: {
+                          el: '.swiper-scrollbar',
+                        },
+                        mousewheel: {
+                          enabled: true,
+                        },
+                        keyboard: {
+                          enabled: true,
+                        },
+                        pagination: {
+                          el: '.swiper-pagination',
+                        },
+                        navigation: {
+                          nextEl: '.swiper-button-next',
+                          prevEl: '.swiper-button-prev',
+                        },
+                    });
+                </script>
+
+
+
+            </div><!--inner : END-->
+        </section><!--content9 : END-->
+
+
     </main>
 
     <footer>
+        <section class="footer_con1 skew">
+            <div class="inner skew_n">
+                <ul>
+                    <li><img src="img/1und1_footer.svg"></li>
+                    <li><img src="img/evonik_footer.svg"></li>
+                    <li><img src="img/puma_footer_3.svg"></li>
+                    <li><img src="img/sip_footer_3.svg"></li>
+                </ul>
+            </div><!--inner : END-->
+        </section><!--footer_con1 : END-->
+        <section class="footer_con2 skew">
+            <div class="inner skew_n">
+                  
+                 <div class="tab_menu">
+                    <ul class="list">
+                      <li class="is_on">
+                        <a href="#tab1" class="btn">BVB 챔피언파트너</a>
+                        <div id="tab1" class="cont">
+                            <ul>
+                                <li><a href="#"><img src="img/footercon2_1.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_2.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_3.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_4.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_5.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_6.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_7.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_8.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_9.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_10.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon2_11.png" alt=""></a></li>
+                                <!-- <li><a href="#"><img src="img/footercon2_12.png" alt=""></a></li> -->
+                            </ul>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="#tab2" class="btn">BVB 프리미엄파트너</a>
+                        <div id="tab2" class="cont">
+                            <ul>
+                                <li><a href="#"><img src="img/footercon22_1.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_2.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_3.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_4.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_5.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_6.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_7.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_8.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_9.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_10.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_11.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon22_12.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="#tab3" class="btn">BVB 파트너</a>
+                        <div id="tab3" class="cont">
+                            <ul>
+                                <li><a href="#"><img src="img/footercon3_1.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_2.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_3.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_4.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_5.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_6.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_7.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_8.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_9.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_10.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_11.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_12.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/footercon3_13.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div> 
+                
+                  
+                  <script>
+                    const tabList = document.querySelectorAll('.tab_menu .list > li');
+                    
+                    for(var i = 0; i < tabList.length; i++){
+                      tabList[i].querySelector('.btn').addEventListener('click', function(e){
+                        e.preventDefault();
+                        for(var j = 0; j < tabList.length; j++){
+                          tabList[j].classList.remove('is_on');
+                        }
+                        this.parentNode.classList.add('is_on');
+                      });
+                    }
+                  </script>
 
+            </div><!--inner : END-->
+        </section><!--footer_con2 : END-->
+
+        <section class="footer_con3 skew">
+            <div class="inner skew_n">
+                <ul>
+                    <li><a href="#"><img src="img/bl_17_footer.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="img/ass_logo_eca.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/orthomed.png" alt=""></a></li>
+                </ul>
+            </div><!--inner : END-->
+        </section><!--footer_con3 : END-->
+        <section class="footer_con4 ">
+            <div class="inner ">
+                <p>Borussia Dortmund GmbH & Co. KGaA</p>
+                <ul>
+                    <li><a href="#">Impressum</a></li>
+                    <li><a href="#">Datenschutz</a></li>
+                    <li><a href="#">Nutzungsbedingungen</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Hilfe</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">Infos</a></li>
+                    <li><a href="#">Die KGaA</a></li>
+                    <li><a href="#">Der Verein</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Handball</a></li>
+                    <li><a href="#">Tischtennis</a></li>
+                </ul>
+            </div><!--inner : END-->
+        </section><!--footer_con4 : END-->
     </footer>
+    <script src="js/main.js" type="text/javascript"></script>
+
 </body>
 </html>
