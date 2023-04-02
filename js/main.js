@@ -248,3 +248,89 @@ tabMenu.forEach(function (e, index) {
 
   // ...
 });
+
+
+
+
+
+
+
+//랭킹
+
+var swiper = new Swiper({
+  el: '.swiper-container.ranking_list',
+  slidesPerView : 8,
+  initialSlide: 0,
+  spaceBetween: 0,// 슬라이드간 간격/
+  //slidesPerGroup:5,// 그룹으로 묶을 수, slidesPerView 와 같은 값을 지정하는게 좋음
+  //slidesPerView: 2,
+  centeredSlides: false,
+  slideToClickedSlide: true,
+  grabCursor: true,
+  scrollbar: {
+      el: '.swiper-scrollbar',
+  },
+  mousewheel: {
+      enabled: true,
+  },
+  keyboard: {
+      enabled: true,
+  },
+  pagination: {
+      el: '.swiper-pagination',
+  },
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+});
+
+
+//메인비주얼
+var visu = new Swiper({
+  el: '.visual',
+  
+  speed : 300,
+  slidesPerView : 1,
+//  touchRatio: 0,//드래그 금지
+//   autoplay: {
+//     delay: 3000,
+//     disableOnInteraction: true,
+// },
+  // initialSlide: 0,
+  spaceBetween: 0,// 슬라이드간 간격/
+  //slidesPerGroup:5,// 그룹으로 묶을 수, slidesPerView 와 같은 값을 지정하는게 좋음
+  //slidesPerView: 2,
+  loop : true,   // 슬라이드 반복 여부
+  // centeredSlides: false,
+  // slideToClickedSlide: false,
+  // grabCursor: false,
+  // scrollbar: {
+  //     el: '.swiper-scrollbar',
+  // },
+  mousewheel: {
+      enabled: false,//스크롤링
+  },
+  // keyboard: {
+  //     enabled: true,
+  // },
+
+  navigation: {
+      nextEl: '.swiper-button-next2',
+      prevEl: '.swiper-button-prev2',
+  },
+  pagination: { // 호출(pager) 여부
+    el: ".swiper-pagination", //버튼을 담을 태그 설정
+    clickable: true, // 버튼 클릭 여부
+    renderBullet: function (index, className) {
+      return `<li class="${className}"><img src="img/baner0${[index+1]}.jpg" alt=""></li>`
+    },
+  },
+});
+
+
+
+
+
+
+
