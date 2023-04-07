@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
     <link rel="icon" href="img/logo-bvb.svg" type="image/x-icon"> 
     <link rel="stylesheet" href="css/basic.css">
     <!-- <link rel="stylesheet" href="css/numberlist.css"> -->
@@ -21,46 +21,60 @@
     <header>
 
         <div class="header_top">
-            <ul>
-                <li class="on"><a href=""><i class="fa-solid fa-futbol"><span>BVB.hom</span></i></a></li>
-                <li><a href=""><i class="fa-brands fa-youtube"><span>BVB-TV by 1&1</span></i></a></li>
-                <li><a href=""><i class="fa-solid fa-shirt"title="팬샵"><span>FanShop</span></i></a></li>
-                <li><a href=""><i class="fa-solid fa-ticket"title="티켓샵"><span>TicketShop</span></i></a></li>
-                <li><a href=""><i class="fa-solid fa-chart-line"title="선수데이터"><span>Aktie</span></i></a></li>
-                <li><a href=""><i class="fa-solid fa-trophy"><span>Borusseum</span></i></a></li>
-                <li><a href=""><i class="fa-solid fa-child-reaching" title="어린이"><span>KisClub</span></i></a></li>
-                <li><a href=""><i class="fa-solid fa-plane-departure" title="여행"><span>Reisen</span></i></a></li>
-                <li><a href=""><i class="fa-solid fa-handshake" title="회원"><span>Vip Menmber</span></i></a></li>
-                <li><a href=""><i class="fa-solid fa-heart" title="하트"><span>donation</span></i></a></li>
-            </ul>
-            <ul>
-                <li><a href=""><i class="fa-solid fa-magnifying-glass" title="돋보기"><span></span></i></a></li>
-                <li><a href=""><i class="fa-brands fa-facebook-f" title="페이스북"><span></span></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitter" title="트위터"><span></span></i></a></li>
-                <li><a href=""><i class="fa-brands fa-instagram" title="인스타"><span></span></i></a></li>
-                <li><a href=""><i class="fa-brands fa-twitch"><span></span></i></a></li>
-                <li><a href=""><i class="fa-solid fa-globe" title="글로벌"><span></span></i></a></li>
-                <li><a href=""></a></li>
-                <li><a href="">Login</a></li>
-            </ul>   
+            <div class="cuver">
+                <ul>
+                    <li class="on"><a href=""><i class="fa-solid fa-futbol"><span>BVB.hom</span></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"><span>BVB-TV by 1&1</span></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-shirt"title="팬샵"><span>FanShop</span></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-ticket"title="티켓샵"><span>TicketShop</span></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-chart-line"title="선수데이터"><span>Aktie</span></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-trophy"><span>Borusseum</span></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-child-reaching" title="어린이"><span>KisClub</span></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-plane-departure" title="여행"><span>Reisen</span></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-handshake" title="회원"><span>Vip Menmber</span></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-heart" title="하트"><span>donation</span></i></a></li>
+                </ul>
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass" title="돋보기"><span></span></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook-f" title="페이스북"><span></span></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter" title="트위터"><span></span></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram" title="인스타"><span></span></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitch"><span></span></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-globe" title="글로벌"><span></span></i></a></li>
+                    <li><a href="">Login</a></li>
+                </ul>   
+            </div>
+            <button>up/down</button>
         </div><!--header_top : END-->
-        <h1><a href="#"><img src="img/logo-bvb.svg" alt=""></a></h1>
-        <h2><a href="#"><img src="img/logo-1und1_s.svg" alt=""  id="logoc"></a></h2>
+
         <div class="gnb rotate">
+            <div class="rotate_n">
+                <h1><a href="#"><img src="img/logo-bvb.svg" alt=""></a></h1>
+                <h2><a href="#"><img src="img/logo-1und1_s.svg" alt=""  id="logoc"></a></h2>
+            </div>
             <div class="h_inner">
+                <button class="bng_btn"><span>메뉴버튼</span></button>
                 <ul class="tabMenu">
                     <li><a href="#">NEWS</a></li>
-                    <li><a href="#">BVB-TV</a></li>
+                    <li><a href="">BVB-TV</a></li>
                     <li><a href="#">SHOP</a></li>
                     <li><a href="#">TICKETS</a></li>
                     <li><a href="#">SPIELE</a></li>
                     <li><a href="#">MANNSCHAFTEN</a></li>
                     <li><a href="#">FANS</a></li>
                     <li><a href="#">DER BVB</a></li>
-                    <li><a href="#">PARTNER / HOSPITALITY</a></li>
+                    <li><a href="#">PARTNER / HOSPITALITY</a></li> 
+                    <!--<li><a href="#">뉴스</a></li>
+                    <li><a href="">도르트문트 TV</a></li>
+                    <li><a href="#">쇼핑</a></li>
+                    <li><a href="#">티켓</a></li>
+                    <li><a href="#">경기 일정</a></li>
+                    <li><a href="#">드림 팀</a></li>
+                    <li><a href="#">팬페이지</a></li>
+                    <li><a href="#">도르트문트 역사</a></li>
+                    <li><a href="#">파트너 기업</a></li>-->
                 </ul>
             </div><!--h_inner : END-->
-
         </div><!--gnb : END-->
     </header>
     <ul class="gnb_content tabBody">
@@ -69,6 +83,7 @@
                 <div class="inner">
                     <nav class="nav1">
                         <ul>
+                            <li class="backBtn"><a href="#">뒤로</a></li>
                             <li><a href="#">개요</a></li>
                             <li><a href="#">인터뷰</a></li>
                             <li><a href="#">배경</a></li>
@@ -186,42 +201,500 @@
             </div>
         </li>
         <li>
-            <div>
-                내용4
-            </div>
+            <div class="skew_n">
+                <div class="inner">
+                    <nav class="nav1">
+                        <ul>
+                            <li class="backBtn"><a href="#">뒤로</a></li>
+                            <li><a href="#">티켓 구매</a></li>
+                            <li><a href="#">사전 판매 날짜</a></li>
+                            <li><a href="#">티켓 정보</a></li>
+                            <li><a href="#">스타이움 투어</a></li>
+                            <li><a href="#">뉴스레터</a></li>
+                            <li><a href="#">경기 계획</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">뉴스 레터</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav4">
+                        <h3>티켓 구매 방법</h3>
+                        <img src="img/navImg02.jpg" alt="">
+                        <dl>
+                            <dt>여기 티켓이 있습니다!!</dt>
+                            <dd>
+                                BVB를 가까이에서 경험하고 팀을 응원하세요.
+                            </dd>
+                        </dl>
+                        <a href="">
+                            매표소로
+                        </a>
+                    </nav><!--nav4 : END-->
+                    <nav class="nav4">
+                        <h3>티켓 뉴스</h3>
+                        <img src="img/navImg03.jpg" alt="">
+                        <dl>
+                            <dt>지금 BVB TV 구독 박아!!</dt>
+                            <dd>
+                                목요일부터 보훔 경기 티켓 구매 가능
+                            </dd>
+                        </dl>
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav><!--nav4 : END-->
+                    <nav class="nav2">
+                        <h3>소식</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="news_btn">
+                                        모든 뉴스 보기
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+
+                </div><!--inner : END-->
+            </div><!--skew_n : END-->
         </li>
         <li>
-            <div>
-                내용5
-            </div>
+            <div class="skew_n">
+                <div class="inner">
+                    <nav class="nav1">
+                        <ul>
+                            <li class="backBtn"><a href="#">뒤로</a></li>
+                            <li><a href="#">경기</a></li>
+                            <li><a href="#">BVB 라디오</a></li>
+                            <li><a href="#">동영상</a></li>
+                            <li><a href="#">경기 날짜</a></li>
+                            <li><a href="#">모든 경기들</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav2">
+                        <h3>이벤트</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        잔디 공 스포츠 라이프치히 - 보루시아 도르트문트
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        VfB 슈투트가르트-보루시아 도르트문트
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="news_btn">
+                                        더 많은 이벤트 보기
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="nav3">
+                        <h3>경기 스토리</h3>
+                        <div>
+                            <dl>
+                                <dt>다음 게임</dt>
+                                <dd>
+                                    <span><img src="img/ranking6.png" alt=""></span>
+                                    <p><strong> - : - </strong></p>
+                                    <span><img src="img/logo-bvb.svg" alt=""></span>
+                                </dd>
+                                <dd>프랑크 푸르트 &nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; 도르트 문트</dd>
+                                <dd><img src="img/ass_logo_eca.png" alt=""></dd>
+                                <dd><span>2023.05.27 18:30</span></dd>
+                            </dl>
+                            <dl>
+                                <dt>마지막 게임</dt>
+                                <dd>
+                                    <span><img src="img/muin.png" alt=""></span>
+                                    <p><strong>2 : 3</strong></p>
+                                    <span><img src="img/logo-bvb.svg" alt=""></span>
+                                </dd>
+                                <dd>바이에른 뮌헨 &nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp; 도르트 문트</dd>
+                                <dd><img src="img/bl_17_footer.jpg" alt=""></dd>
+                                <dd>26일 매치데이<span>2023.05.27 18:30</span></dd>
+                            </dl>
+                            <!-- <a href="">모든 게임 표시</a> -->
+                        </div>
+                    </nav>
+                    <nav class="nav4">
+                        <h3>혜택</h3>
+                        <img src="img/navImg04.jpg" alt="">
+                        <dl>
+                            <dt>팬 혜택: WOW + BVB-TV 12개월</dt>
+                            <dd>
+                                WOW를 통해 BVB가 분데스리가와 DFB 컵은 물론 최고의 핸드볼, 테니스, 골프, 포뮬러 1 경기를 라이브로 볼 수 있습니다. 
+                                또한 독점 비디오 및 보고서가 포함된 BVB 아카이브에 액세스할 수 있습니다. 
+                                한 달에 €24.99에 함께 사용하세요.
+                            </dd>
+                        </dl>
+                        <a href="">
+                            BVB TV 바로가기
+                        </a>
+                    </nav>
+                </div><!--inner : END-->
+            </div><!--skew_n : END-->
         </li>
         <li>
-            <div>
-                내용6
-            </div>
+            <div class="skew_n">
+                <div class="inner">
+                    <nav class="nav1">
+                        <ul>
+                            <li class="backBtn"><a href="#">뒤로</a></li>
+                            <li><a href="#">선수단</a></li>
+                            <li><a href="#">유소년</a></li>
+                            <li><a href="#">전통</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav5">
+                        <h3>골키퍼</h3>
+                        <ul>
+                            <li><a href="#"><p>1</p><span>그레고리 코벨</span></a></li>
+                            <li><a href="#"><p>33</p><span>알렉산더 마이어</span></a></li>
+                            <li><a href="#"><p>35</p><span>마르셀 로트카</span></a></li>
+                            <li><a href="#"><p>38</p><span>루카 운베혼</span></a></li>
+                        </ul>
+                    </nav><!--nav5 : END-->
+                    <nav class="nav5">
+                        <h3>수비수</h3>
+                        <ul>
+                            <li><a href="#"><p>2</p><span>마테우 모리 바우자</span></a></li>
+                            <li><a href="#"><p>4</p><span>니코 슐로터벡</span></a></li>
+                            <li><a href="#"><p>13</p><span>라파엘 게레이로</span></a></li>
+                            <li><a href="#"><p>14</p><span>니코 슐즈</span></a></li>
+                            <li><a href="#"><p>15</p><span>마츠 후엘스</span></a></li>
+                            <li><a href="#"><p>24</p><span>토마스 뮐너</span></a></li>
+                            <li><a href="#"><p>25</p><span>니클라스 술레</span></a></li>
+                            <li><a href="#"><p>26</p><span>줄리안라이어슨</span></a></li>
+                        </ul>
+                    </nav><!--nav5 : END-->
+                    <nav class="nav5">
+                        <h3>미드필더</h3>
+                        <ul>
+                            <li><a href="#"><p>6</p><span>살리 오즈칸</span></a></li>
+                            <li><a href="#"><p>7</p><span>조반니 레이나</span></a></li>
+                            <li><a href="#"><p>8</p><span>마흐무드 다후드</span></a></li>
+                            <li><a href="#"><p>11</p><span>마르코레우스</span></a></li>
+                            <li><a href="#"><p>17</p><span>마리우스 울프</span></a></li>
+                            <li><a href="#"><p>19</p><span>줄리안 브란트</span></a></li>
+                            <li><a href="#"><p>22</p><span>주드 벨링엄</span></a></li>
+                            <li><a href="#"><p>23</p><span>멀레 칸</span></a></li>
+                            <li><a href="#"><p>30</p><span>펠릭스 패스</span></a></li>
+                            <li><a href="#"><p>32</p><span>압둘라예 카마라</span></a></li>
+                            <li><a href="#"><p>42</p><span>곡탄 구르푸즈</span></a></li>
+                        </ul>
+                    </nav><!--nav5 : END-->
+                    <nav class="nav5">
+                        <h3>공격수</h3>
+                        <ul>
+                            <li><a href="#"><p>9</p><span>세바스티안 힐러</span></a></li>
+                            <li><a href="#"><p>16</p><span>줄리앙 듀랑빌</span></a></li>
+                            <li><a href="#"><p>18</p><span> 유수파 무코코</span></a></li>
+                            <li><a href="#"><p>20</p><span>앤서니 모데스트</span></a></li>
+                            <li><a href="#"><p>20</p><span>앤서니 모데스트</span></a></li>
+                            <li><a href="#"><p>21</p><span>도넬 페인트</span></a></li>
+                            <li><a href="#"><p>27</p><span>카림 아데예미</span></a></li>
+                            <li><a href="#"><p>43</p><span>제이미 바이노 기른스</span></a></li>
+                        </ul>
+                    </nav><!--nav5 : END-->
+                </div><!--inner : END-->
+            </div><!--skew_n : END-->
+        </li>
+
+        <li>
+            <div class="skew_n">
+                <div class="inner">
+                    <nav class="nav1">
+                        <ul>
+                            <li class="backBtn"><a href="#">뒤로</a></li>
+                            <li><a href="#">경기</a></li>
+                            <li><a href="#">BVB 소식</a></li>
+                            <li><a href="#">팬클럽</a></li>
+                            <li><a href="#">팬 조언</a></li>
+                            <li><a href="#">팬 부서</a></li>
+                            <li><a href="#">BVB 팬 월드</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav2">
+                        <h3>이벤트</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        잔디 공 스포츠 라이프치히 - 보루시아 도르트문트
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        VfB 슈투트가르트-보루시아 도르트문트
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>04.15</p>
+                                    <span>
+                                        게레이로가 전화를 끊고, 말렌이 맞고, 변신할 수 있습니다.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="news_btn">
+                                        더 많은 이벤트 보기
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="nav4">
+                        <h3>베팅 모든것</h3>
+                        <img src="img/navImg04.jpg" alt="">
+                        <dl>
+                            <dt>Nobby에 대한 모든 것 - 검정색과 노란색 베팅 그룹</dt>
+                            <dd>
+                                검은색 및 노란색 베팅 그룹에서 Nobby는 모든 Borussia 플레이어에게 베팅에 도전합니다! 
+                                참여는 물론 무료이며 최고의 팁을 주는 사람은 매 경기일과 시즌이 끝날 때 독점적인 BVB 상을 받습니다. 
+                                페이스북 친구를 초대하여 경쟁할 수도 있습니다.
+                            </dd>
+                        </dl>
+                        <a href="">
+                            베팅 바로가기
+                        </a>
+                    </nav>
+                </div><!--inner : END-->
+            </div><!--skew_n : END-->
         </li>
         <li>
-            <div>
-                내용7
-            </div>
+            <div class="skew_n">
+                <div class="inner">
+                    <nav class="nav1">
+                        <ul>
+                            <li class="backBtn"><a href="#">뒤로</a></li>
+                            <li><a href="#">역사 소개</a></li>
+                            <li><a href="#">홈 구장 소개</a></li>
+                            <li><a href="#">자원 봉사자</a></li>
+                            <li><a href="#">재단, 기부금</a></li>
+                            <li><a href="#">일자리</a></li>
+                            <li><a href="#">E 풋볼</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav4">
+                        <h3>노동조합</h3>
+                        <img src="img/bvb_gnb_01.jpg" alt="">
+                        <dl>
+                            <dt>보르지그플라츠 출생</dt>
+                            <dd>
+                                BV의 가장 중요한 기관. 
+                                보루시아 09 eV 도르트문트와 그 멤버들.
+                            </dd>
+                        </dl>
+                        <a href="">
+                            협회 위원회
+                        </a>
+                    </nav>
+                    <nav class="nav4">
+                        <h3>노동 위원회</h3>
+                        <img src="img/bvb_gnb_02.jpg" alt="">
+                        <dl>
+                            <dt>KGAA</dt>
+                            <dd>
+                                Borussia Dortmund GmbH & Co. KGaA, 위원회 및 구성원에 대한 개요입니다.
+                            </dd>
+                        </dl>
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav>
+                    <nav class="nav4">
+                        <h3>일자리</h3>
+                        <img src="img/bvb_gnb_03.jpg" alt="">
+                        <dl>
+                            <dt>일자리</dt>
+                            <dd>
+                                보루시아 도르트문트는 단순한 고용주 그 이상입니다. 
+                                무엇보다 보루시아 도르트문트는 삶의 방식이기도 하다. 
+                                이것은 우리의 기업 및 클럽 문화에 반영됩니다. 
+                                보루시아 도르트문트에서 일하는 사람들은 BVB 가족과 떼려야 뗄 수 없는 감정적 연결을 느낍니다. 
+                            </dd>
+                        </dl>
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav>
+                    <nav class="nav4">
+                        <h3>재단, 기부금</h3>
+                        <img src="img/bvb_gnb_04.jpg" alt="">
+                        <dl>
+                            <dt>라이트 업 - BVB 재단</dt>
+                            <dd>
+                                분데스리가 50회 시즌 12일, 보루시아 도르트문트가 비영리재단 '라이트업'의 창립을 맞아 별의 탄생을 자축했다.
+                            </dd>
+                        </dl>
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav>
+                    <nav class="nav4">
+                        <h3>우리의 게임</h3>
+                        <img src="img/bvb_gnb_05.jpg" alt="">
+                        <dl>
+                            <dt>BVB의 지속 가능한 개발</dt>
+                            <dd>
+                                연대와 공동체로 보루시아 도르트문트의 지속 가능한 보고서를 우리는 항상 개발한다.
+                            </dd>
+                        </dl>
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav>
+                </div><!--inner : END-->
+            </div><!--skew_n : END-->
         </li>
         <li>
-            <div>
-                내용8
-            </div>
-        </li>
-        <li>
-            <div>
-                내용9
-            </div>
+            <div class="skew_n">
+                <div class="inner">
+                    <nav class="nav1">
+                        <ul>
+                            <li class="backBtn"><a href="#">뒤로</a></li>
+                            <li><a href="#">비즈니스 뉴스</a></li>
+                            <li><a href="#">파트너들</a></li>
+                            <li><a href="#">파트너 네트워크</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="nav4">
+                        <img src="img/fatner_bng01.png" alt="">
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav>
+                    <nav class="nav4">
+                        <img src="img/fatner_bng02.png" alt="">
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav>
+                    <nav class="nav4">
+                        <img src="img/fatner_bng03.png" alt="">
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav>
+                    <nav class="nav4">
+                        <img src="img/fatner_bng04.png" alt="">
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav>
+                    <nav class="nav4">
+                        <img src="img/fatner_bng06.png" alt="">
+                        <a href="">
+                            더 알아보기
+                        </a>
+                    </nav>
+                </div><!--inner : END-->
+            </div><!--skew_n : END-->
         </li>
     </ul>
 
     <div class="wr">
 
-        <style>
-            .swiper-container.visual{height: 600px;margin:0;z-index: 0;;}
-        </style>
+
         <div class="swiper-container visual skew ">
             <!-- <div class="swiper-scrollbar"></div> -->
 
@@ -280,7 +753,7 @@
                 </div><!---슬라이더 컨텐--->
 
             </div><!--swiper-wrapper : END-->
-            <div class="swiper-pagination ul skew_n"></div>
+            <ul class="swiper-pagination ul skew_n"></div>
             <!-- <ul class="swiper-pagination ">
                 <li class="on"><img src="img/baner02.jpg" alt=""><span>도르트문트 CF</span></li>
                 <li><img src="img/wu02.webp" alt=""><span>BVB 팬샵</span></li>
@@ -311,7 +784,7 @@
                         <h3>이전 경기 결과</h3>
                         <div class="score">
                             <div>
-                                <p><img src="img/oni.svg" alt=""></p>
+                                <p><img src="img/muin.png" alt=""></p>
                             </div>
                             <div>2 : 2</div>
                             <div>
@@ -380,7 +853,11 @@
                                 <dd>
                                     보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
                                     킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
                                     신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
                                 </dd>
                             </dl>
                         </a>
@@ -395,7 +872,7 @@
                                     </div>
                                     <dl>
                                         <dt>
-                                            Salih Özcan과 함께하는 홀리데이 매거진</dt>
+                                            함께하는 홀리데이 매거진</dt>
                                         <dd>
                                             보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
                                             킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
@@ -440,7 +917,8 @@
                                 <dt>시버트 휘파람 | 하늘 방송</dt>
                                 <dd>
                                     보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
-                                    킥오프는 오후 6시 30분이다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
                                 </dd>
                             </dl>
                         </a>
@@ -509,147 +987,227 @@
         </section><!--content2 : END-->
         <section class="content3 skew">
             <div class="inner skew_n">
-                <h2>플레이어들</h2>
-                <ul>
-                    <li>
-                        <div>
-                            <a href="#">
-                                <div class="img">
-                                    <img src="img/h01.png" alt="">
-                                    <p class="p1"><span></span></p>
-                                    <p class="p2"></p>
-                                    <p class="p3"></p>
-                                    <p class="p4"></p>
-                                </div><!--img : END-->
-                                <dl>
-                                    <dt><span>1</span><span>주드벨링엄</span></dt>
-                                    <dd></dd>
-                                    <!-- 사진정보 : https://www.weltfussball.de/spieler_profil/mateu-morey/ -->
-                                    <!-- <dd>https://m.post.naver.com/viewer/postView.naver?volumeNo=33794944&memberNo=54701274</dd> -->
-                                </dl>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="#">
-                                <div class="img">
-                                    <img src="img/h02.png" alt="">
-                                    <p class="p1"><span></span></p>
-                                    <p class="p2"></p>
-                                    <p class="p3"></p>
-                                    <p class="p4"></p>
-                                </div><!--img : END-->
-                                <dl>
-                                    <dt><span>2</span><span>주드벨링엄</span></dt>
-                                    <dd></dd>
-                                </dl>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="#">
-                                <div class="img">
-                                    <img src="img/h03.png" alt="">
-                                    <p class="p1"><span></span></p>
-                                    <p class="p2"></p>
-                                    <p class="p3"></p>
-                                    <p class="p4"></p>
-                                </div><!--img : END-->
-                                <dl>
-                                    <dt><span>3</span><span>주드벨링엄</span></dt>
-                                    <dd></dd>
-                                </dl>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="#">
-                                <div class="img">
-                                    <img src="img/h04.png" alt="">
-                                    <p class="p1"><span></span></p>
-                                    <p class="p2"></p>
-                                    <p class="p3"></p>
-                                    <p class="p4"></p>
-                                </div><!--img : END-->
-                                <dl>
-                                    <dt><span>4</span><span>주드벨링엄</span></dt>
-                                    <dd></dd>
-                                </dl>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="#">
-                                <div class="img">
-                                    <img src="img/h05.png" alt="">
-                                    <p class="p1"><span></span></p>
-                                    <p class="p2"></p>
-                                    <p class="p3"></p>
-                                    <p class="p4"></p>
-                                </div><!--img : END-->
-                                <dl>
-                                    <dt><span>5</span><span>주드벨링엄</span></dt>
-                                    <dd></dd>
-                                </dl>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="#">
-                                <div class="img">
-                                    <img src="img/h06.png" alt="">
-                                    <p class="p1"><span></span></p>
-                                    <p class="p2"></p>
-                                    <p class="p3"></p>
-                                    <p class="p4"></p>
-                                </div><!--img : END-->
-                                <dl>
-                                    <dt><span>6</span><span>주드벨링엄</span></dt>
-                                    <dd></dd>
-                                </dl>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="#">
-                                <div class="img">
-                                    <img src="img/h07.png" alt="">
-                                    <p class="p1"><span></span></p>
-                                    <p class="p2"></p>
-                                    <p class="p3"></p>
-                                    <p class="p4"></p>
-                                </div><!--img : END-->
-                                <dl>
-                                    <dt><span>7</span><span>주드벨링엄</span></dt>
-                                    <dd></dd>
-                                </dl>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="#">
-                                <div class="img">
-                                    <img src="img/h08.png" alt="">
-                                    <p class="p1"><span></span></p>
-                                    <p class="p2"></p>
-                                    <p class="p3"></p>
-                                    <p class="p4"></p>
-                                </div><!--img : END-->
-                                <dl>
-                                    <dt><span>8</span><span>주드벨링엄</span></dt>
-                                    <dd></dd>
-                                </dl>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+                <h2>도르트문트 선수단</h2>
+                <div class="swiper-container players ">
+                    <!-- <div class="swiper-scrollbar"></div> -->
+
+                    <ul class="swiper-wrapper  list_bu">
+                        <li class="swiper-slide on">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h01.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>1</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                        <!-- 사진정보 : https://www.weltfussball.de/spieler_profil/mateu-morey/ -->
+                                        <!-- <dd>https://m.post.naver.com/viewer/postView.naver?volumeNo=33794944&memberNo=54701274</dd> -->
+                                    </dl>
+                                </a>
+                            </div>
+                        </li><!---슬라이더 컨텐--->
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h02.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>2</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h03.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>3</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h04.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>4</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h05.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>5</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h06.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>6</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h07.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>7</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h08.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>8</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h09.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>9</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h10.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>10</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h11.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>11</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide ">
+                            <div>
+                                <a href="#">
+                                    <div class="img">
+                                        <img src="img/h12.png" alt="">
+                                        <p class="p1"><span></span></p>
+                                        <p class="p2"></p>
+                                        <p class="p3"></p>
+                                        <p class="p4"></p>
+                                    </div><!--img : END-->
+                                    <dl>
+                                        <dt><span>12</span><span>주드벨링엄</span></dt>
+                                        <dd></dd>
+                                    </dl>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+                <div class="nextBtn">
+                    <div class="swiper-button-prev players"><</div>
+                    <div class="swiper-button-next players">></div>
+                    <div class="Clas"><a href="#">선수단 정보</a></div>
+                </div><!--nextBtn : END-->
+
+            
             </div><!--inner : END-->
         </section><!--content3 : END-->
 
@@ -673,12 +1231,12 @@
                 <ul>
                     <li>
                         <a href="#" class="skew_n">
-                            <img src="img/kg01.jpg" alt="" />
+                            <img src="img/kg04.jpg" alt="" />
                         </a>
                     </li>
                     <li>
                         <a href="#" class="skew_n">
-                            <img src="img/kg02.jpg" alt="" />
+                            <img src="img/kg05.jpg" alt="" />
                         </a>
                     </li>
                     <li>
@@ -688,12 +1246,12 @@
                     </li>
                     <li>
                         <a href="#" class="skew_n">
-                            <img src="img/kg04.jpg" alt="" />
+                            <img src="img/kg02.jpg" alt="" />
                         </a>
                     </li>
                     <li>
                         <a href="#" class="skew_n">
-                            <img src="img/kg05.jpg" alt="" />
+                            <img src="img/kg01.jpg" alt="" />
                         </a>
                     </li>
                 </ul>
@@ -776,7 +1334,7 @@
                         <a href="">
                             <div class="img">
                                 <span><i class="fa-brands fa-twitter" title="트위터"></i></span>
-                                <img src="img/sns01.jpg" alt="">
+                                <img src="img/sns09.jpg" alt="">
                             </div>
                             <dl>
                                 <dt>시버트 휘파람 | 하늘 방송</dt>
@@ -796,9 +1354,10 @@
                             </div>
                             <dl>
                                 <dt>
-                                    Salih Özcan과 함께하는 홀리데이 매거진</dt>
+                                    함께하는 홀리데이 매거진</dt>
                                 <dd>
                                     보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는
                                 </dd>
                             </dl>
                         </a>
@@ -831,6 +1390,9 @@
                                 <dd>
                                     보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
                                     킥오프는 오후 6시 30분이다. 
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
                                 </dd>
                             </dl>
                         </a>
@@ -862,6 +1424,9 @@
                                 <dd>
                                     보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
                                     킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    보루시아 도르트문트는 토요일 SIGNAL IDUNA PARK에서 1. FC Köln과 경기를 치릅니다. 
+                                    킥오프는 오후 6시 30분이다. 분데스리가 홈 경기에 대한 모든 정보를 간결한 형태로 요약했습니다. 
+                                    신제품이 나오자마자 보루시아 도르트문트와 도르트문트 및 해당 지역의 일반적인 관심 서비스는 보루시아 도르트문트는 토요일
                                 </dd>
                             </dl>
                         </a>
@@ -928,7 +1493,7 @@
 
 
 
-
+            <div class="cuver">
                 <div class="swiper-container ranking_list">
                     <!-- <div class="swiper-scrollbar"></div> -->
 
@@ -1080,20 +1645,13 @@
                     </div>
                     <!-- <div class="swiper-pagination"></div> -->
                 </div>
+            
                 <div class="nextBtn">
                     <div class="swiper-button-prev"><</div>
                     <div class="swiper-button-next">></div>
                     <div class="Clas"><a href="rankinglist.html">순위 자세히</a></div>
                 </div><!--nextBtn : END-->
-                <style>
-
-                .swiper-container {
-                    width: 100%;
-                    height: 300px;
-                    margin: 50px auto;
-                }
-
-                </style>
+            </div><!--cuver : END-->
     
 
 
@@ -1119,7 +1677,7 @@
                 <div class="tab_menu">
                     <ul class="list">
                         <li class="is_on">
-                            <a href="#tab1" class="btn">BVB 챔피언파트너</a>
+                            <a href="#tab1" class="btn"><span>BVB</span> 챔피언파트너</a>
                             <div id="tab1" class="cont">
                                 <ul>
                                     <li><a href="#"><img src="img/footercon2_1.png" alt=""></a></li>
@@ -1138,7 +1696,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="#tab2" class="btn">BVB 프리미엄파트너</a>
+                            <a href="#tab2" class="btn"><span>BVB</span> 프리미엄파트너</a>
                             <div id="tab2" class="cont">
                                 <ul>
                                     <li><a href="#"><img src="img/footercon22_1.png" alt=""></a></li>
@@ -1157,7 +1715,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="#tab3" class="btn">BVB 파트너</a>
+                            <a href="#tab3" class="btn"><span>BVB</span> 파트너</a>
                             <div id="tab3" class="cont">
                                 <ul>
                                     <li><a href="#"><img src="img/footercon3_1.png" alt=""></a></li>
